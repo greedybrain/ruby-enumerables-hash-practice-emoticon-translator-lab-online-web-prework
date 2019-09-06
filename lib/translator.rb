@@ -20,9 +20,9 @@ def get_japanese_emoticon(path, eng_emo)
   
   emo_file.each do |key, value|
     key
+    binding.pry
   end
   
-  binding.pry
 end
 
 # def get_english_meaning
