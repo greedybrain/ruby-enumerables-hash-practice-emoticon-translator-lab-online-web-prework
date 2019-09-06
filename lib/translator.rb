@@ -19,7 +19,7 @@ def get_japanese_emoticon(path, eng_emo)
   
   emo_file = load_library(path)
   eng_emo ? emo_file[:get_emoticon][eng_emo] : "The Emoji doesn't exist"
-  
+  binding.pry
 end
 
 # def get_english_meaning
