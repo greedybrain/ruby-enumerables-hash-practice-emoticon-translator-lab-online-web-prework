@@ -16,7 +16,6 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(path, eng_emo)
-  eng_emo = "---tg"
   emo_file = load_library(path)
   unless emo_file[:get_emoticon][eng_emo] == nil
     emo_file[:get_emoticon][eng_emo]
