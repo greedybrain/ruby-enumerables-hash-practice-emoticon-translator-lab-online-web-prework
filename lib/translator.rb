@@ -31,6 +31,7 @@ def get_english_meaning(path, jap_emo)
   unless translation == nil
     translation
   else
-    
+    "Sorry, that emoticon was not found"
+  end
 end
 
