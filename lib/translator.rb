@@ -19,7 +19,7 @@ def get_japanese_emoticon(path, eng_emo)
   emo_file = load_library(path)
   
   emo_file.each do |key, value|
-    key
+    emo_file[:get_emoticon][eng_emo]
     binding.pry
   end
   
