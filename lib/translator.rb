@@ -25,12 +25,12 @@ def get_japanese_emoticon(path, eng_emo)
   end
 end
 
-def get_english_meaning(path, eng_meaning)
+def get_english_meaning(path, jap_emo)
   emo_file = load_library(path)
   emo_file.each do |key, value|
     
     binding.pry
   end
-  translation = emo_file[:get_emoticon][eng_meaning]
+  translation = emo_file[:get_emoticon][jap_emo]
 end
 
