@@ -31,6 +31,6 @@ def get_english_meaning(path, jap_emo)
     
     binding.pry
   end
-  translation = emo_file[:get_emoticon][jap_emo]
+  translation = emo_file[:get_meaning][jap_emo]
 end
 
