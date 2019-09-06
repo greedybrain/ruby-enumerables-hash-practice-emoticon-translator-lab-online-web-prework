@@ -20,7 +20,7 @@ def get_japanese_emoticon(path, eng_emo)
   unless emo_file[:get_emoticon][eng_emo] == nil
     emo_file[:get_emoticon][eng_emo]
   else
-    "The Emoji doesn't exist"
+    "Sorry, that emoticon was not found"
   end
 end
 
