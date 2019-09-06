@@ -18,8 +18,7 @@ end
 def get_japanese_emoticon(path, eng_emo)
   eng_emo = "---tg"
   emo_file = load_library(path)
-  if eng_emo 
-    emo_file[:get_emoticon][eng_emo]
+  unless emo_file[:get_emoticon][eng_emo] == nil
   else
     "The Emoji doesn't exist"
   end
