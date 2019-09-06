@@ -25,7 +25,7 @@ def get_japanese_emoticon(path, eng_emo)
   end
 end
 
-def get_english_meaning(path, jap_emo)
+def get_english_meaning(path, eng_meaning)
   emo_file = load_library(path)
   emo_file.each do |key, value|
     
