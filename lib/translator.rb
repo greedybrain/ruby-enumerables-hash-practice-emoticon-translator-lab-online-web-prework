@@ -17,8 +17,9 @@ end
 
 def get_japanese_emoticon(path, eng_emo)
   emo_file = load_library(path)
-  unless emo_file[:get_emoticon][eng_emo] == nil
-    emo_file[:get_emoticon][eng_emo]
+  translation = emo_file[:get_emoticon][eng_emo]
+  unless translation == nil
+    translation
   else
     "Sorry, that emoticon was not found"
   end
