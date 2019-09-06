@@ -27,10 +27,8 @@ end
 
 def get_english_meaning(path, jap_emo)
   emo_file = load_library(path)
-  emo_file.each do |key, value|
-    
-    binding.pry
-  end
+  
   translation = emo_file[:get_meaning][jap_emo]
+  binding.pry
 end
 
