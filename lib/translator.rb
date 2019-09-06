@@ -23,6 +23,7 @@ def get_japanese_emoticon(path, eng_emo)
   else
     "The Emoji doesn't exist"
   binding.pry
+  end
 end
 
 # def get_english_meaning
