@@ -27,6 +27,7 @@ end
 
 def get_english_meaning(path, jap_emo)
   emo_file = load_library(path)
+  translation = emo_file[:get_emoticon][jap_emo]
   binding.pry
 end
 
